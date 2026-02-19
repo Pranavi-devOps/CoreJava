@@ -1,4 +1,4 @@
-class FunctionDemo {
+class FunctionCallExample {
 
     void printName() {
         System.out.println("Pranavi");
@@ -6,7 +6,7 @@ class FunctionDemo {
 
     public static void main(String[] args) {
 
-        FunctionDemo obj = new FunctionDemo();
+        FunctionCallExample obj = new FunctionCallExample();
         obj.printName();
     }
 }

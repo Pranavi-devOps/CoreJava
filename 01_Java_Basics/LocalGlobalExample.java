@@ -1,10 +1,10 @@
-class ScopeDemo {
+class LocalGlobalExample {
 
     int number = 10; // Global variable
 
     public static void main(String[] args) {
 
-        ScopeDemo obj = new ScopeDemo();
+        LocalGlobalExample obj = new LocalGlobalExample();
         obj.show();
     }
 

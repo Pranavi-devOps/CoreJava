@@ -1,5 +1,5 @@
 // Creating a class
-class Student {
+class ClassObjectMethod {
 
     // Method
     void display() {
@@ -10,7 +10,7 @@ class Student {
     public static void main(String[] args) {
 
         // Creating object
-        Student obj = new Student();
+        ClassObjectMethod obj = new ClassObjectMethod();
 
         // Calling method using object
         obj.display();
