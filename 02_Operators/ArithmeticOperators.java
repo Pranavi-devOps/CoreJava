@@ -1,4 +1,4 @@
-class ArithmeticDemo {
+class ArithmeticOperators {
 
     void calculate(int a, int b) {
 
@@ -10,7 +10,7 @@ class ArithmeticDemo {
 
     public static void main(String[] args) {
 
-        ArithmeticDemo obj = new ArithmeticDemo();
+        ArithmeticOperators obj = new ArithmeticOperators();
         obj.calculate(10, 5);
     }
 }

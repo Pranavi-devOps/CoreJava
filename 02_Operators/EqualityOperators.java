@@ -1,4 +1,4 @@
-class EqualDemo {
+class EqualityOperators {
 
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-class CompareNumbers {
+class CheckEqualNumbers {
 
     public static void main(String[] args) {
 

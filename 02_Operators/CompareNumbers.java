@@ -1,4 +1,4 @@
-class SmallLarge {
+class CompareNumbers {
 
     public static void main(String[] args) {
 
