@@ -26,6 +26,7 @@ public class HashMapOperations {
 
         // Clone
         HashMap<Integer, String> mapCopy = new HashMap<>(map);
+        System.out.println("Cloned Map: " + mapCopy);
 
         // Check key
         System.out.println("Contains key 5? " + map.containsKey(5));
