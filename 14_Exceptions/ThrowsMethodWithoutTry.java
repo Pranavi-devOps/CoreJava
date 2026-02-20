@@ -1,10 +1,11 @@
 public class ThrowsMethodWithoutTry {
 
-    static void divide() throws ArithmeticException {
-        int a = 10 / 0;
+    static void divide() {
+        int b = 0;
+        System.out.println(10 / b);
     }
 
     public static void main(String[] args) {
-        divide(); // No try block
+        divide();
     }
 }

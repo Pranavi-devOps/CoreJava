@@ -1,6 +1,8 @@
 public class GenerateArithmeticException {
 
     public static void main(String[] args) {
-        int a = 5 / 0;
+
+        int b = 0;
+        System.out.println(5 / b);
     }
 }

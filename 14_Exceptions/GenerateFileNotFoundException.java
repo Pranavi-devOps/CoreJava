@@ -2,8 +2,9 @@ import java.io.*;
 
 public class GenerateFileNotFoundException {
 
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws Exception {
 
-        FileInputStream file = new FileInputStream("abc.txt");
+        try (FileInputStream file = new FileInputStream("abc.txt")) {
+        }
     }
 }
